@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    <!-- Firebase App is always required and must be first -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-firestore.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyB21Pw3s_j9hABZxd6Hyf_8Y7Ndn2cZ7U0",
+            authDomain: "fir-10b23.firebaseapp.com",
+            databaseURL: "https://fir-10b23.firebaseio.com",
+            projectId: "fir-10b23",
+            storageBucket: "fir-10b23.appspot.com",
+            messagingSenderId: "83393641499"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="./tracker.js"></script>
+</body>
+</html>
