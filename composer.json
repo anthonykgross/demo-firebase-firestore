@@ -1,0 +1,6 @@
+{
+    "name": "./vendor",
+    "require": {
+        "google/cloud-firestore": "^0.15.7"
+    }
+}
